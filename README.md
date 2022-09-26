@@ -95,4 +95,4 @@ public class MainActivity extends AppCompatActivity {
 ### Output:
 
 ### Result:
-Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed.
+Therefore a program is return to develop a program to detect the various life cycles of an activity and the program is successfully executed.
