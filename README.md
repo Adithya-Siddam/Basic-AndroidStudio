@@ -93,6 +93,14 @@ public class MainActivity extends AppCompatActivity {
 </androidx.constraintlayout.widget.ConstraintLayout>
 ~~~
 ### Output:
+![OUTPUT](/images/img1.png)
+![OUTPUT](/images/img2.png)
+![OUTPUT](/images/img3.png)
+![OUTPUT](/images/img4.png)
+![OUTPUT](/images/img5.png)
+![OUTPUT](/images/img6.png)
+![OUTPUT](/images/img7.png)
+
 
 ### Result:
-Therefore a program is return to develop a program to detect the various life cycles of an activity and the program is successfully executed.
+Hence a program is written to develop a program to detect the various life cycles of an activity and the program is successfully executed.
