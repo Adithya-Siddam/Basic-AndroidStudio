@@ -139,9 +139,7 @@ public class MainActivity extends AppCompatActivity {
 ![image](https://user-images.githubusercontent.com/93427248/195827307-283dae37-37f8-422f-b4ee-f169dcef8edd.png)
 ![image](https://user-images.githubusercontent.com/93427248/195827133-fe06c6a7-0d85-4e18-86d5-199e94a4db55.png)
 ![image](https://user-images.githubusercontent.com/93427248/195827411-d934599a-f3ba-40be-98d6-11245f7a48df.png)
-![image](https://user-images.githubusercontent.com/93427248/195827562-5f626f9e-fb4b-4356-99bb-1cb153449fdd.png)
 
-![image](https://user-images.githubusercontent.com/93427248/195827496-483432d6-c83a-4245-900a-d141a8abf062.png)
 
 
 
