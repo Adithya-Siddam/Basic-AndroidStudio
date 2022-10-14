@@ -36,10 +36,8 @@ Registeration Number : 212221230100
 ```
 ### MainActivity File:
 ~~~
-package com.example.anew;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
+package com.adithya.content;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
@@ -51,7 +49,13 @@ import android.provider.ContactsContract;
 import android.util.Log;
 import android.view.View;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
+
 public class MainActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -75,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             while(cursor.moveToNext()){
                 @SuppressLint("Range") String ContactName = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.DISPLAY_NAME));
                 @SuppressLint("Range") String contactNumber = cursor.getString(cursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
-                Log.i("CONTACT_PROVIDER_DEMO","Contact Name ::: "+ ContactName+"ph# ::: "+contactNumber);
+                Log.i("CONTACT_PROVIDER_DEMO","Contact Name ::: "+ ContactName+" - "+contactNumber);
             }
         }
 
@@ -83,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ~~~
-### activity_main.xml :
+## activity_main.xml :
 ~~~
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -103,14 +107,15 @@ public class MainActivity extends AppCompatActivity {
 </RelativeLayout>
 ~~~
 
-###AndroidManifest.xml:
+##AndroidManifest.xml:
 ~~~
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.sanath.contentproviderapp">
-    <uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_CONTACTS"></uses-permission>
+    package="com.adithya.content">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -119,10 +124,10 @@ public class MainActivity extends AppCompatActivity {
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.New"
+        android:theme="@style/Theme.Content"
         tools:targetApi="31">
         <activity
-            android:name="com.example.anew.MainActivity"
+            android:name="com.adithya.content.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
