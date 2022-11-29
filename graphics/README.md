@@ -274,7 +274,8 @@ public class Cube {
 
 
 ## OUTPUT:
-![image](https://user-images.githubusercontent.com/93427248/204458516-c63f8fa5-b62e-4da5-9881-af3e230b3f57.png)
+![image](https://user-images.githubusercontent.com/93427248/204459048-126bd34c-c94f-4680-b75b-78882b207502.png)
+
 
 ![image](https://user-images.githubusercontent.com/93427248/204458549-d73c6109-1b93-4a9d-8f45-942b83f3f1a7.png)
 
