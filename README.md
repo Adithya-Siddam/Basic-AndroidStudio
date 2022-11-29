@@ -1,7 +1,7 @@
 # Ex.No:1 To create Hello world Activity using all lifecycles methods to display messages.
 ## AIM:
 
-To create your own content providers to get contacts details using Android Studio.
+To create Hello world Activity using all lifecycles methods to display messages using android studio.
 
 ## EQUIPMENTS REQUIRED:
 
